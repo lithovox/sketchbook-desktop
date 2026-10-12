@@ -12,11 +12,11 @@ The latest version:
 
 | System | Installer |
 | --- | --- |
-| Windows (64-bit) | [Sketchbook-windows-x64-setup.exe](https://github.com/lithovox/sketchbook/releases/latest/download/Sketchbook-windows-x64-setup.exe) or [Sketchbook-windows-x64.msi](https://github.com/lithovox/sketchbook/releases/latest/download/Sketchbook-windows-x64.msi) |
-| macOS (Apple Silicon and Intel) | [Sketchbook-macos-universal.dmg](https://github.com/lithovox/sketchbook/releases/latest/download/Sketchbook-macos-universal.dmg) |
-| Linux (Debian/Ubuntu, 64-bit) | [Sketchbook-linux-amd64.deb](https://github.com/lithovox/sketchbook/releases/latest/download/Sketchbook-linux-amd64.deb) |
+| Windows (64-bit) | [Sketchbook-windows-x64-setup.exe](https://github.com/lithovox/sketchbook-desktop/releases/latest/download/Sketchbook-windows-x64-setup.exe) or [Sketchbook-windows-x64.msi](https://github.com/lithovox/sketchbook-desktop/releases/latest/download/Sketchbook-windows-x64.msi) |
+| macOS (Apple Silicon and Intel) | [Sketchbook-macos-universal.dmg](https://github.com/lithovox/sketchbook-desktop/releases/latest/download/Sketchbook-macos-universal.dmg) |
+| Linux (Debian/Ubuntu, 64-bit) | [Sketchbook-linux-amd64.deb](https://github.com/lithovox/sketchbook-desktop/releases/latest/download/Sketchbook-linux-amd64.deb) |
 
-Older versions: [all releases](https://github.com/lithovox/sketchbook/releases).
+Older versions: [all releases](https://github.com/lithovox/sketchbook-desktop/releases).
 
 The installers aren't code-signed yet. On Windows, SmartScreen may warn about
 an unknown publisher ("More info" → "Run anyway"). On macOS the first start is
@@ -37,4 +37,5 @@ npm run build   # installers in src-tauri/target/release/bundle/
 ```
 
 Releases are built by `../sketchbook/.github/workflows/desktop.yml` on a push to
-`master` with a new version in `package.json`.
+`master` with a new version in `package.json`, and published here (this
+repository is public, sketchbook isn't).
